@@ -1,6 +1,6 @@
 # PureBlocks
 
-PureBlocks is a clean Gutenberg block plugin. Current block: **Carousel** (Slick-powered).
+PureBlocks is a clean Gutenberg block plugin.
 
 ## Blocks
 
