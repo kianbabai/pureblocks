@@ -1,0 +1,10 @@
+.pureblocks-carousel {
+	border: 1px dashed #dcdcde;
+	padding: 8px;
+}
+
+.pureblocks-carousel .slick-slide {
+	padding: 4px;
+}
+
+

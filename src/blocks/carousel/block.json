@@ -1,0 +1,20 @@
+{
+	"apiVersion": 2,
+	"name": "pureblocks/carousel",
+	"title": "Carousel",
+	"category": "pureblocks",
+	"icon": "images-alt2",
+	"description": "Image/content carousel powered by Slick.",
+	"textdomain": "pureblocks",
+	"attributes": {
+		"slidesToShow": {
+			"type": "number",
+			"default": 1
+		}
+	},
+	"supports": {
+		"html": false
+	}
+}
+
+

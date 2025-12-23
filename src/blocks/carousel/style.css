@@ -1,0 +1,118 @@
+.pureblocks-carousel {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.pureblocks-carousel .slick-slide {
+	outline: none;
+}
+
+.pureblocks-carousel .slick-slide img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.pureblocks-carousel .slick-list {
+	margin: 0;
+}
+
+.pureblocks-carousel .slick-track {
+	display: flex;
+	align-items: center;
+}
+
+/* Minimal dots styling */
+.pureblocks-carousel .slick-dots {
+	bottom: 10px;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+}
+
+.pureblocks-carousel .slick-dots li {
+	display: inline-block;
+	margin: 0 4px;
+	padding: 0;
+}
+
+.pureblocks-carousel .slick-dots li button {
+	width: 8px;
+	height: 8px;
+	padding: 0;
+	border: none;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+	font-size: 0;
+	line-height: 0;
+	transition: background 0.2s ease;
+}
+
+.pureblocks-carousel .slick-dots li button:hover,
+.pureblocks-carousel .slick-dots li.slick-active button {
+	background: rgba(255, 255, 255, 1);
+}
+
+/* Minimal arrows styling */
+.pureblocks-carousel .slick-prev,
+.pureblocks-carousel .slick-next {
+	z-index: 2;
+	width: 40px;
+	height: 40px;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+	border-radius: 50%;
+	color: #fff;
+	cursor: pointer;
+	font-size: 0;
+	line-height: 0;
+	transition: background 0.2s ease;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.pureblocks-carousel .slick-prev:hover,
+.pureblocks-carousel .slick-next:hover {
+	background: rgba(0, 0, 0, 0.85);
+}
+
+.pureblocks-carousel .slick-prev {
+	left: 12px;
+}
+
+.pureblocks-carousel .slick-prev:before {
+	content: '‹';
+	font-size: 30px;
+	color: #fff;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, 100%);
+}
+
+.pureblocks-carousel .slick-next {
+	right: 12px;
+}
+
+.pureblocks-carousel .slick-next:before {
+	content: '›';
+	font-size: 30px;
+	color: #fff;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, 100%);
+}
+
+.pureblocks-carousel .slick-prev.slick-disabled,
+.pureblocks-carousel .slick-next.slick-disabled {
+	opacity: 0.3;
+	cursor: not-allowed;
+}

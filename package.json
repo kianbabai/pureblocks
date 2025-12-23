@@ -1,0 +1,16 @@
+{
+    "name": "pureblocks",
+    "version": "1.0.0",
+    "description": "A clean, dependency-free collection of focused Gutenberg blocks.",
+    "main": "pureblocks.php",
+    "scripts": {
+        "build": "node scripts/build-blocks.js",
+        "start": "node scripts/start-blocks.js"
+    },
+    "author": "",
+    "license": "GPL-2.0-or-later",
+    "devDependencies": {
+        "@wordpress/scripts": "^26.0.0",
+        "slick-carousel": "^1.8.1"
+    }
+}
